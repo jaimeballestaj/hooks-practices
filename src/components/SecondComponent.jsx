@@ -2,12 +2,12 @@ import React, { useState } from 'react'
 
 export const SecondComponent = () => {
 
-  const [ name, setName ] = useState("Inés María");
+  const [ name, setName ] = useState("JAIME BALLESTA J");
   const [ isNameChanged, setIsNameChanged ] = useState(false);
 
   const changeName = (e) => {
     if (isNameChanged) {
-      setName("Inés María");
+      setName("JAIME BALLESTA");
     } else {
       setName("Pedro Oliveros");
     }
